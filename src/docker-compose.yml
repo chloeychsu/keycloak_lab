@@ -1,0 +1,10 @@
+services:
+  keycloak_db:
+    image: postgres
+
+  keycloak_svc:
+    image: quay.io/keycloak/keycloak:latest
+
+
+volumes:
+  postgres_keycloak_db:
